@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+a {
+  display: block;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6,p,span,a,strong,blockquote,i,b,u,em {
+  font-size: 1rem;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background-color: rgb(36, 36, 36);
+}
+
+form,input, textarea,select,button, label {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  display: block;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.4rem;
+  background-color: rgb(56, 57, 57);
+}
+
+.contenedorPrincipal {
+  width: 100%;
+}
+
+
