@@ -8,7 +8,8 @@ import style from "./navbar.module.css";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className={style.contenedor}>
+    <header className={style.header}>
+        <nav className={style.contenedor}>
       <div className={style.contenedorImg}>
         <img height="100%" src={logo} />
       </div>
@@ -30,7 +31,6 @@ export default function Navbar() {
         </div>
         <div className={style.smallScreen}>
         <GiHamburgerMenu
-          
           fontSize={30}
           onClick={() => setToggleMenu(true)}
           className={style.iconHamburger}
@@ -52,5 +52,7 @@ export default function Navbar() {
          </div>
       
     </nav>
+    </header>
+    
   );
 }
