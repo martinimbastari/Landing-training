@@ -1,5 +1,5 @@
 .header {
-    background-image: url("../../assets/header.jpg");
+    background-image: url("../../assets/header2dark.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -11,8 +11,8 @@
 .contenedor {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.491);
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.7);
     padding: 0 2rem;
 }
 
@@ -42,12 +42,14 @@
 }
 
 .navList ul li a {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-color: #3cd1c0;
+    transition: all 0.3s;
     font-size: 20px;
     font-weight: 600;
     color: white;
+}
+
+.navList ul li a:hover {
+    color: #3cd1c0;
 }
 
 .smallScreen {
