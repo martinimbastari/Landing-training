@@ -1,0 +1,43 @@
+.contenedorBeneficios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 200px;
+    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
+}
+
+.contenedorBeneficios div {
+    width: 20%;
+    text-align: center;
+}
+
+.contenedorBeneficios div h2 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.contenedorBeneficios div p {
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 18px;
+}
+
+
+.contenedorAbout {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.contenedorImg {
+    background-image: url('../../assets/aboutpng.png');
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+}
+
+.aboutText {
+    width: 50%;
+}
+
