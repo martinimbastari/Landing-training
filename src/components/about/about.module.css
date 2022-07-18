@@ -1,43 +1,87 @@
-.contenedorBeneficios {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    align-items: center;
-    height: 200px;
-    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
-}
-
-.contenedorBeneficios div {
-    width: 20%;
-    text-align: center;
-}
-
-.contenedorBeneficios div h2 {
-    font-size: 25px;
-    margin: 10px 0;
-}
-
-.contenedorBeneficios div p {
-    text-align: center;
-    padding: 0 2rem;
-    font-size: 18px;
-}
-
 
 .contenedorAbout {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     padding: 2rem 0;
+    background-color: rgba(10, 10, 22, 0.631);
 }
 
 .contenedorImg {
-    background-image: url('../../assets/aboutpng.png');
+    background-image: url('../../assets/headeredit1.png');
     background-position: center;
     background-size: cover;
-    width: 50%;
-    height: 400px;
+    min-height: 600px;
+    width: 100%;
 }
 
+
 .aboutText {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.aboutText h2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.aboutText h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+}
+
+.aboutText p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.62);
+    margin: 10px 0;
+    width: 70%;
+}
+
+.aboutText button {
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 8px;
+    width: 180px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px  2px rgb(26, 26, 26);
+    background-color: #0093E9;
+    background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+}
+
+.aboutText button a {
+    font-size: 18px;
+}
+
+.aboutText button:hover {
+    cursor: pointer;
+    background-color: #0093E9;
+background-image: linear-gradient(270deg, #0093E9 0%, #80D0C7 100%);
+}
+
+@media  screen and (max-width: 768px) {
+    .contenedorAbout {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .contenedorImg {
+        min-height: 400px;
+    }
+
+    .aboutText {
+        align-items: center;
+        text-align: center;
+    }
 }
 

@@ -11,7 +11,6 @@ export default function Header() {
                 <a href='#hola'>Comenza ya</a>
             </button>
         </div>
-        <div className={style.headerImg}></div>
     </div>
   )
 }
