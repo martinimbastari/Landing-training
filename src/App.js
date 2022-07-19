@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import Header from './components/header/Header';
 import About from './components/about/About';
 import Beneficios from './components/beneficios/Beneficios';
+import Planes from './components/planes/Planes';
 import style from './App.module.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <About/>
       <Beneficios/>
+      <Planes/>
     </>
   );
 }
