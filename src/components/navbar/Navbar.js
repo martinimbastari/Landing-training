@@ -40,9 +40,9 @@ export default function Navbar() {
           <div className={style.smallscreen_overlay}>
           <AiOutlineClose className={style.closeIcon} onClick={() => setToggleMenu(false)} />
                             <ul className={style.smallscreen_links}>
-                                <li><a href='#about'>Inicio</a></li>
-                                <li><a href='#skills'>Sobre mi</a></li>
-                                <li><a href='#trabajo'>Planes</a></li>
+                                <li><a href='#inicio'>Inicio</a></li>
+                                <li><a href='#about'>Sobre mi</a></li>
+                                <li><a href='#planes'>Planes</a></li>
                                 <li><a href='#contacto'>Contacto</a></li>
                             </ul>
                         </div>
