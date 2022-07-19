@@ -15,6 +15,7 @@ export default function Planes() {
                 <li>-Lorem ipsum dolor sit.</li>
                 <li>-Lorem ipsum dolor sit.</li>
             </ul>
+            <button className={style.btnPlan}><a>Comenzar</a></button>
         </div>
         <div className={style.planCard}>
         <h3 className={style.titleCard}>Plan moderado $100</h3>
@@ -24,6 +25,7 @@ export default function Planes() {
                 <li>-Lorem ipsum dolor sit.</li>
                 <li>-Lorem ipsum dolor sit.</li>
             </ul>
+            <button className={style.btnPlan}><a>Comenzar</a></button>
         </div>
         <div className={style.planCard}>
         <h3 className={style.titleCard}>Plan avanzado $150</h3>
@@ -34,6 +36,7 @@ export default function Planes() {
                 <li>-Lorem ipsum dolor sit.</li>
                 <li>-Lorem ipsum dolor sit.</li>
             </ul>
+            <button className={style.btnPlan}><a>Comenzar</a></button>
         </div>
     </div>
     </div>

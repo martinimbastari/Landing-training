@@ -1,13 +1,11 @@
 import React from 'react'
 import style from './about.module.css'
-import {BiTargetLock} from 'react-icons/bi'
-import logo from '../../assets/about1resize.jpg'
 
 export default function About() {
   return (
     <>
-    <div className={style.contenedorAbout}>
-        <div className={style.contenedorImg}>
+    <div id='about'  className={style.contenedorAbout}>
+        <div  className={style.contenedorImg}>
             
         </div>
         <div className={style.aboutText}>

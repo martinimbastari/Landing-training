@@ -4,7 +4,8 @@ import Header from './components/header/Header';
 import About from './components/about/About';
 import Beneficios from './components/beneficios/Beneficios';
 import Planes from './components/planes/Planes';
-import style from './App.module.css';
+import Contacto from './components/contacto/Contacto';
+import  './App.module.css';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Beneficios/>
       <Planes/>
+      <Contacto/>
     </>
   );
 }

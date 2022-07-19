@@ -1,5 +1,5 @@
 .contenedorSection {
-    padding: 1rem;
+    padding: 1rem 0 5rem 0;
     background-color: rgba(10, 10, 22, 0.631);
     text-align: center;
     color: white;
@@ -25,7 +25,7 @@
 
 .planCard {
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     padding: 2rem 0;
@@ -55,6 +55,24 @@
 .planCard ul {
     color: rgba(255, 255, 255, 0.62);
     font-size: 20px;
+}
+
+.btnPlan {
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 8px;
+    width: 100px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px  2px rgb(26, 26, 26);
+    background-color: #0093E9;
+    background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+}
+
+.btnPlan:hover {
+    cursor: pointer;
+    background-color: #0093E9;
+    background-image: linear-gradient(270deg, #0093E9 0%, #80D0C7 100%);
 }
 
 @media screen and (max-width: 768px) {

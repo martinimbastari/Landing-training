@@ -10,7 +10,7 @@ export default function Beneficios() {
   return (
     <div className={style.fondo}>
       <div className={style.contenedorBeneficios}>
-        <div className={style.beneficiosText}>
+        <div id="planes" className={style.beneficiosText}>
           <h2>
             <span>Entrenamiento</span> adaptado a cada persona
           </h2>

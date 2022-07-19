@@ -8,7 +8,7 @@ import style from "./navbar.module.css";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <header className={style.header}>
+    <header id='inicio' className={style.header}>
         <nav className={style.contenedor}>
       <div className={style.contenedorImg}>
         <img height="100%" src={logo} />
@@ -16,16 +16,16 @@ export default function Navbar() {
       <div className={style.navList}>
         <ul>
           <li>
-            <a href="#">Inicio</a>
+            <a href="#inicio">Inicio</a>
           </li>
           <li>
-            <a href="#">Sobre Mi</a>
+            <a href="#about">Sobre Mi</a>
           </li>
           <li>
-            <a href="#">Planes</a>
+            <a href="#planes">Planes</a>
           </li>
           <li>
-            <a href="#">Contacto</a>
+            <a href="#contacto">Contacto</a>
           </li>
         </ul>
         </div>

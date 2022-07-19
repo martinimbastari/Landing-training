@@ -1,0 +1,59 @@
+.contenedorContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 0 0;
+}
+
+.contenedorContacto h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.894);
+}
+
+.contenedorContacto p {
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.894);
+}
+
+.contenedorRedes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem 0;
+}
+
+.iconT {
+    color: #0088cc;
+}
+
+.iconT:hover {
+    cursor: pointer;
+    color: #04a8fa;
+}
+
+.iconW {
+    color: #25d366;
+}
+
+.iconW:hover {
+    cursor: pointer;
+    color: #05fd60;
+}
+
+.iconI {
+    color: #c13584;
+}
+
+.iconI:hover {
+    cursor: pointer;
+    color: #eb0e8c;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedorContacto h2 {
+        font-size: 20px;
+    }
+}
